@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+/* - Soft blue: hsl(215, 51%, 70%)
+- Cyan: hsl(178, 100%, 50%)
+- Very dark blue (main BG): hsl(217, 54%, 11%)
+- Very dark blue (card BG): hsl(216, 50%, 16%)
+- Very dark blue (line): hsl(215, 32%, 27%)
+- White: hsl(0, 0%, 100%) */
+body {
+  background-color: hsl(217, 54%, 11%);
+  font-family: "Outfit", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+main {
+  background-color: hsl(216, 50%, 16%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem;
+  width: 32rem;
+  border-radius: 2rem;
+}
+main img {
+  width: 100%;
+  border-radius: 2rem;
+}
+article {
+  width: 100%;
+  padding-top: 2rem;
+}
+h1 {
+  color: hsl(0, 0%, 100%);
+  font-weight: 600;
+}
+p {
+  padding: 1.2rem 0;
+  font-size: 1.4rem;
+  color: hsl(215, 32%, 27%);
+}
+aside {
+  display: flex;
+  justify-content: space-between;
+}
+.grid-two {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  font-weight: 600;
+}
+.cyan {
+  color: hsl(178, 100%, 50%);
+}
+footer {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  border-top: 1px solid hsl(215, 32%, 27%);
+  margin-top: 1rem;
+  padding-top: 1rem;
+}
+footer img {
+  width: 3rem;
+  border: 1px solid hsl(0, 0%, 100%);
+}
+
+footer h2 {
+  color: hsl(215, 32%, 27%);
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+footer span {
+  color: hsl(0, 0%, 100%);
+}
